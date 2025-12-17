@@ -1,3 +1,6 @@
+# Optimisations : update linux (only requiered dependencies)
+# For safty : add a user when launching the image to have it safe.
+
 # Stage 1: Build
 FROM gradle:8.5-jdk21 AS build
 COPY . /app

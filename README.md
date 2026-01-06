@@ -54,4 +54,4 @@ Puis
 > curl localhost:8080/api/name
 
 *resultat de la requete*
-![resultat curl /api/name](image6.png)
+![resultat curl /api/name](images/image6.png)

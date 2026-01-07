@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-php
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-php
+  template:
+    metadata:
+      labels:
+        app: app-php
+    spec:
+      containers:
+        - image: bipief/app-php:1
+          imagePullPolicy: IfNotPresent
+          name: php-app-simple
+      restartPolicy: Always

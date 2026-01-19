@@ -97,3 +97,4 @@ I imported and updated the yaml files.
 
 > kubectl get pods
 ![alt text](images/image30.png)
+
